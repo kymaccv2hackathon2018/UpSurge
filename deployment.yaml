@@ -1,0 +1,60 @@
+---
+# Inspiration from Kelsey Hightower hello world
+# See https://github.com/kelseyhightower/kubernetes-initializer-tutorial/blob/master/deployments/helloworld.yaml
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  labels:
+    app: gopdf
+  name: gopdf
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: gopdf
+        metrics: gopdf-custom-metrics
+      name: gopdf
+      annotations:
+        sidecar.istio.io/inject: "true"
+        prometheus.io/path: /metrics
+        prometheus.io/port: "8081"
+        prometheus.io/scrape: "true"
+    spec:
+      containers:
+      - name: gopdf
+        image: repository.hybris.com:5005/upsurge/gopdf:deb4f7ebd3ad2b99c856a9b98fde9730
+        imagePullPolicy: Always
+        ports:
+          - containerPort: 8080
+          - containerPort: 8081
+      imagePullSecrets:
+        - name: "hybris-artifactory"
+
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: gopdf
+spec:
+  selector:
+    app: gopdf
+  ports:
+  - protocol: TCP
+    port: 8080
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: gopdf-metrics-8081
+  labels:
+    k8s-app: metrics
+    metrics: gopdf-custom-metrics
+spec:
+  selector:
+    app: gopdf
+  ports:
+  - name: web
+    port: 8081
+    protocol: TCP
+---

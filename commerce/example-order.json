@@ -1,0 +1,297 @@
+{
+  "Payload": {
+    "appliedOrderPromotions": [],
+    "appliedProductPromotions": [],
+    "appliedVouchers": [],
+    "calculated": true,
+    "code": "00001012",
+    "consignments": [
+      {
+        "code": "cons00001012_0",
+        "entries": [
+          {
+            "orderEntry": {
+              "configurationInfos": [
+                {
+                  "configurationLabel": "Engraved Text",
+                  "configurationValue": "PowerShot",
+                  "configuratorType": "TEXTFIELD",
+                  "status": "SUCCESS"
+                },
+                {
+                  "configurationLabel": "Font Size",
+                  "configurationValue": "14",
+                  "configuratorType": "TEXTFIELD",
+                  "status": "SUCCESS"
+                },
+                {
+                  "configurationLabel": "Font Type",
+                  "configurationValue": "Comic Sans",
+                  "configuratorType": "TEXTFIELD",
+                  "status": "SUCCESS"
+                }
+              ],
+              "product": {
+                "baseOptions": null,
+                "categories": null,
+                "classifications": null,
+                "code": "pdf-for-kyma",
+                "futureStocks": null,
+                "images": null,
+                "name": "pdf-for-kyma",
+                "potentialPromotions": null,
+                "productReferences": null,
+                "purchasable": true,
+                "reviews": null,
+                "stock": {
+                  "stockLevel": 50
+                },
+                "tags": null,
+                "url": "///pdf-for-kyma/p/pdf-for-kyma",
+                "variantMatrix": null,
+                "variantOptions": null,
+                "volumePrices": null
+              },
+              "totalPrice": {
+                "currencyIso": "USD"
+              }
+            },
+            "quantity": 1
+          }
+        ],
+        "shippingAddress": {
+          "country": {
+            "isocode": "CA"
+          },
+          "firstName": "Hao",
+          "id": "8796159705111",
+          "lastName": "Xu",
+          "line1": "999 Blvd Maisonneuve Ouest",
+          "postalCode": "h3a 3l4",
+          "region": {
+            "isocode": "CA-QC"
+          },
+          "town": "Montreal"
+        },
+        "shippingDate": "0001-01-01T00:00:00.000Z",
+        "status": "CANCELLED",
+        "statusDate": "0001-01-01T00:00:00.000Z"
+      }
+    ],
+    "created": "2018-12-03T22:54:41.000Z",
+    "deliveryAddress": {
+      "country": {
+        "isocode": "CA"
+      },
+      "firstName": "Hao",
+      "id": "8796159705111",
+      "lastName": "Xu",
+      "line1": "999 Blvd Maisonneuve Ouest",
+      "postalCode": "h3a 3l4",
+      "region": {
+        "isocode": "CA-QC"
+      },
+      "town": "Montreal"
+    },
+    "deliveryCost": {
+      "currencyIso": "USD",
+      "formattedValue": "$7.49",
+      "priceType": "BUY",
+      "value": 7.49
+    },
+    "deliveryMode": {
+      "code": "standard-net",
+      "deliveryCost": {
+        "currencyIso": "USD",
+        "formattedValue": "$7.49",
+        "priceType": "BUY",
+        "value": 7.49
+      },
+      "description": "3-5 business days",
+      "name": "Standard Delivery"
+    },
+    "deliveryOrderGroups": [
+      {
+        "entries": [
+          {
+            "configurationInfos": [
+              {
+                "configurationLabel": "Engraved Text",
+                "configurationValue": "PowerShot",
+                "configuratorType": "TEXTFIELD",
+                "status": "SUCCESS"
+              },
+              {
+                "configurationLabel": "Font Size",
+                "configurationValue": "14",
+                "configuratorType": "TEXTFIELD",
+                "status": "SUCCESS"
+              },
+              {
+                "configurationLabel": "Font Type",
+                "configurationValue": "Comic Sans",
+                "configuratorType": "TEXTFIELD",
+                "status": "SUCCESS"
+              }
+            ],
+            "product": {
+              "baseOptions": null,
+              "categories": null,
+              "classifications": null,
+              "code": "pdf-for-kyma",
+              "futureStocks": null,
+              "images": null,
+              "name": "pdf-for-kyma",
+              "potentialPromotions": null,
+              "productReferences": null,
+              "purchasable": true,
+              "reviews": null,
+              "stock": {
+                "stockLevel": 50
+              },
+              "tags": null,
+              "url": "///pdf-for-kyma/p/pdf-for-kyma",
+              "variantMatrix": null,
+              "variantOptions": null,
+              "volumePrices": null
+            },
+            "totalPrice": {
+              "currencyIso": "USD"
+            }
+          }
+        ],
+        "totalPriceWithTax": {
+          "currencyIso": "USD",
+          "formattedValue": "$0.00",
+          "priceType": "BUY"
+        }
+      }
+    ],
+    "deliveryStatus": "NOTSHIPPED",
+    "entries": [
+      {
+        "configurationInfos": [
+          {
+            "configurationLabel": "Engraved Text",
+            "configurationValue": "PowerShot",
+            "configuratorType": "TEXTFIELD",
+            "status": "SUCCESS"
+          },
+          {
+            "configurationLabel": "Font Size",
+            "configurationValue": "14",
+            "configuratorType": "TEXTFIELD",
+            "status": "SUCCESS"
+          },
+          {
+            "configurationLabel": "Font Type",
+            "configurationValue": "Comic Sans",
+            "configuratorType": "TEXTFIELD",
+            "status": "SUCCESS"
+          }
+        ],
+        "product": {
+          "baseOptions": null,
+          "categories": null,
+          "classifications": null,
+          "code": "pdf-for-kyma",
+          "futureStocks": null,
+          "images": null,
+          "name": "pdf-for-kyma",
+          "potentialPromotions": null,
+          "productReferences": null,
+          "purchasable": true,
+          "reviews": null,
+          "stock": {
+            "stockLevel": 50
+          },
+          "tags": null,
+          "url": "///pdf-for-kyma/p/pdf-for-kyma",
+          "variantMatrix": null,
+          "variantOptions": null,
+          "volumePrices": null
+        },
+        "totalPrice": {
+          "currencyIso": "USD"
+        }
+      }
+    ],
+    "guid": "c9391dda-3303-4a5d-8d10-8095718cc19a",
+    "net": true,
+    "orderDiscounts": {
+      "currencyIso": "USD",
+      "formattedValue": "$0.00",
+      "priceType": "BUY"
+    },
+    "paymentInfo": {
+      "accountHolderName": "Hao Xu",
+      "billingAddress": {
+        "country": {
+          "isocode": "CA"
+        },
+        "firstName": "Hao",
+        "id": "8796159770647",
+        "lastName": "Xu",
+        "line1": "999 Blvd Maisonneuve Ouest",
+        "postalCode": "h3a 3l4",
+        "region": {
+          "isocode": "CA-QC"
+        },
+        "town": "Montreal"
+      },
+      "cardNumber": "************1111",
+      "cardType": {
+        "code": "visa",
+        "name": "Visa"
+      },
+      "expiryMonth": "10",
+      "expiryYear": "2020",
+      "id": "8796093448234",
+      "saved": true,
+      "subscriptionId": "e4f808ad-a418-4cfb-8863-1f1d96254f8b"
+    },
+    "pickupOrderGroups": [],
+    "productDiscounts": {
+      "currencyIso": "USD",
+      "formattedValue": "$0.00",
+      "priceType": "BUY"
+    },
+    "site": "electronics",
+    "status": "ON_HOLD",
+    "statusDisplay": "processing",
+    "store": "electronics",
+    "subTotal": {
+      "currencyIso": "USD",
+      "formattedValue": "$0.00",
+      "priceType": "BUY"
+    },
+    "totalDiscounts": {
+      "currencyIso": "USD",
+      "formattedValue": "$0.00",
+      "priceType": "BUY"
+    },
+    "totalItems": 1,
+    "totalPrice": {
+      "currencyIso": "USD",
+      "formattedValue": "$7.49",
+      "priceType": "BUY",
+      "value": 7.49
+    },
+    "totalPriceWithTax": {
+      "currencyIso": "USD",
+      "formattedValue": "$7.49",
+      "priceType": "BUY",
+      "value": 7.49
+    },
+    "totalTax": {
+      "currencyIso": "USD",
+      "formattedValue": "$0.00",
+      "priceType": "BUY"
+    },
+    "unconsignedEntries": [],
+    "user": {
+      "name": "Hao Xu",
+      "uid": "xuhao318@gmail.com"
+    }
+  }
+}
